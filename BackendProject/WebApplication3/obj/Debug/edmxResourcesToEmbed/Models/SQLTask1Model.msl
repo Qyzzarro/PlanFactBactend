@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PlanFact_SQL_Task1ModelContainer" CdmEntityContainer="SQLTask1Context">
+    <FunctionImportMapping FunctionImportName="SQLTask1" FunctionName="Хранилище PlanFact_SQL_Task1Model.SQLTask1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PlanFact_SQL_Task1Model.SQLTask1_Result">
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="Total_Price_of_the_client" ColumnName="Total Price of the client" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PlanFact_SQL_Task1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SQLTask1Context" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="SQLTask1" ReturnType="Collection(PlanFact_SQL_Task1Model.SQLTask1_Result)">
+      <Parameter Name="Status" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="SQLTask1_Result">
+    <Property Type="Int32" Name="ClientID" Nullable="false" />
+    <Property Type="Decimal" Name="Total_Price_of_the_client" Nullable="true" Precision="19" />
+  </ComplexType>
+</Schema>

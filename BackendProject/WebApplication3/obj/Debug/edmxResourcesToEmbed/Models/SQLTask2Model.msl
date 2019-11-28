@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PlanFact_SQL_Task2ModelContainer" CdmEntityContainer="SQLTask2Context">
+    <FunctionImportMapping FunctionImportName="SQLTask2" FunctionName="Хранилище PlanFact_SQL_Task2Model.SQLTask2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PlanFact_SQL_Task2Model.SQLTask2_Result">
+          <ScalarProperty Name="Hour" ColumnName="Hour" />
+          <ScalarProperty Name="Average_check" ColumnName="Average check" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
